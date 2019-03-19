@@ -5,6 +5,6 @@ I used [LinqToExcel](https://github.com/paulyoder/LinqToExcel) to query my datas
 
 I created a new `Random()` class so I can use it to randomly order my query using Linq.
 
-While using [LinqToExcel](https://github.com/paulyoder/LinqToExcel) you first need to create an class with properties names that are matchin the Excel table headers. Check the documentation for workaround on this subject.
+While using [LinqToExcel](https://github.com/paulyoder/LinqToExcel) you first need to create an class with properties names that are matching the Excel table headers. Check the documentation for another approach on this subject.
 
 Before the `.Orderby()` method you need to add `.ToList()` while working with LinqToExcel. You can find more info on this subject [here](https://stackoverflow.com/questions/55223165/cant-random-orderby-while-using-linqtoexcel).

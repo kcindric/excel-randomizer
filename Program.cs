@@ -1,6 +1,6 @@
-
 using System;
 using System.Linq;
+using LinqToExcel;
 using ClosedXML.Excel;
 
 //Creating a class with property names which match the collumn names
